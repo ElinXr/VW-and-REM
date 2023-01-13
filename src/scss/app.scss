@@ -38,6 +38,7 @@ html {
   top: 0;
   left: 0;
   transform: skewY(-45deg) translate(-57px, -43px);
+  font-size: 2em;
 }
 
 .book:after {
@@ -71,12 +72,19 @@ html {
 .box {
   display: flex;
   justify-content: center;
+  width:50vw;
 }
 
-.book-title {
+.book-title:before {
   font-weight: 600;
+  font-size: 3em;
 }
 
-.description {
+.description:before {
   font-weight: 100;
+  font-size: 2em;
+}
+
+.copyright:before{
+font-size: 0.7em;
 }
